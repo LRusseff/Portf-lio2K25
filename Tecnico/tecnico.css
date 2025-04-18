@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+html{
+    height: 100vh;
+    background-color: black;
+    height: auto;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex{
+    display: flex;
+    margin-left: 10%;
+    /* justify-content: space-between; */
+}
+
+header{
+    margin: auto;
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 1s;
+    margin-right: 100000px;
+    border: solid 1px ;
+}
+
+header.rolagem{
+    background-color:rgb(0, 0, 0);
+    padding: 20px 4%;
+}
+
+header.rolagem a, header.rolagem i{
+    color: rgb(255, 255, 255);
+}
+
+.neon{
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 16px 20px;
+}
+
+header i{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+    color: rgb(253, 253, 253);
+    text-align: none;
+    transition: .5s;
+    opacity: 50%;
+}
+
+header ul li:hover {
+    scale: calc(1.05);
+    opacity: 100%;
+}
+
+.banner{
+    height: 100vh;
+    background-image: url(https://i.pinimg.com/originals/5f/ee/8e/5fee8e4a9fea271529cfd8828dd990d5.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner h1{
+    font-size: 4em;
+    text-align: center;
+}
+
+.banner h1 span{
+    color: rgb(255, 255, 255);
+}
+
+.btn-contato button{
+    padding: 15px 30px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(90deg, #1900ff, #0ba2b3);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(255, 0, 102, 0);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    transition: .5s;
+}
+
+.btn-contato :hover{
+    scale: calc(1.05);
+    opacity: 100%;
+}
+
+
+h2{
+    color: aliceblue;
+}
+
+p{
+    color: white;
+}
+
+
+/* PENSANDOOOOOOOOOOOOO */
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* .btn{
+    padding: 15px 40px;
+    border: none;
+    outline: none;
+    color: purple;
+    background-color: ;
+    cursor: pointer;
+    position: relative;
+    z-index: relative;
+    border-radius: 10px;
+    gap: 20%;
+} */
+
+
+
+.btn {
+    padding: 15px 30px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(255, 0, 102, 0);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    transition: .5s;
+}
+
+#btnMS{
+    margin-right: 10px;
+    background: linear-gradient(90deg, #000000, #877887);
+}
+
+#btnIOT{
+    margin-left: 10px;
+    background: linear-gradient(90deg, #3c0948, #6008a9);
+}
+
+
+
+.btn :hover{
+    scale: calc(1.05);
+    opacity: 100%;
+}
+
